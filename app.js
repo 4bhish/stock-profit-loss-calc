@@ -10,17 +10,18 @@ function calculateStocks(initialPrice,stockQuantity,currentPrice)
     {
         var loss = (initialPrice - currentPrice)*stockQuantity;
         var lossPercentage = (loss/initialPrice)*100;
-        console.log("Hello");
+        
+        showMessage(`uh Oh ! you have lost ${loss} and loss percentage is ${lossPercentage}%`)
     }
     else if(currentPrice > initialPrice )
     {
         var profit = (currentPrice - initialPrice )*stockQuantity;
         var profitPercentage = (profit/initialPrice)*100;
-        console.log("bye");
+        showMessage(`uh Oh ! you have lost ${profit} and loss percentage is ${profitPercentage}%`)
     } 
     else
     {
-        console.log("You earned nothing you gained Nothing")
+        showMessage("You earned nothing you gained Nothing")
     }
 }
 
@@ -30,6 +31,11 @@ function tellMe()
     var stockQuantity= Number(sqInput.value);
     var currentPrice = Number(cpInput.value);
     calculateStocks(initialPrice,stockQuantity,currentPrice)
+}
+
+function showMessage(message)
+{
+    outputText.innerText = message;
 }
 
 btnTellme.addEventListener("click", tellMe)
