@@ -17,7 +17,7 @@ function calculateStocks(initialPrice,stockQuantity,currentPrice)
     {
         var profit = (currentPrice - initialPrice )*stockQuantity;
         var profitPercentage = (profit/initialPrice)*100;
-        showMessage(`uh Oh ! you have lost ${profit} and loss percentage is ${profitPercentage}%`)
+        showMessage(`uh Oh ! you have profitted  ${profit} and profit percentage is ${profitPercentage}%`)
     } 
     else
     {
