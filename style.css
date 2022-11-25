@@ -1,15 +1,64 @@
-*{
-
+* {
+    padding: 0;
+    margin: 0;
 }
 
+body
+{
+    padding: rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh
+}
+main
+{
+    max-width: 550px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin:  auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: relative;
+}
 .container
 {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    width: fit-content;
-    padding: 2rem;
-    margin: 2rem;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-self: center;
+max-width: 300px;
+margin: auto;
+text-align: center;
+position: relative;
+}
+.heading
+{
+    padding-top: 50px;
     text-align: center;
+    margin: auto;
+}
+.input--box
+{
+   padding: 0.8rem 0.2rem;
+   border-radius: 1rem;
+   text-indent: 0.2px;
+   font-size: medium;
+   font-weight :600;;
+}
+.input--box::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: grey;
+    fill-opacity: initial;
+}
+label
+{
+    font-size: medium;
+    padding-top: 0.8rem;
+    padding-bottom: 0.2rem;
+}
+#tellme
+{
+    padding: 0.4rem 0.1rem;
+    margin:1rem 0.1rem;
+    border-radius: 0.5rem;
 }
