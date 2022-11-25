@@ -3,8 +3,8 @@
     
 }
 :root {
-    --color-primary: #1b1b32;
-    --color-secondary: #0a0a23;
+    --color-primary:#0a0a23;
+    --color-secondary:  #1b1b32;
 }
 
 body
@@ -18,8 +18,8 @@ body
 {
     margin: 1rem auto;
     height: 450px;
-    width: 40%;
-    background: var(--color-secondary);
+    width: 550px;
+    background:var(--color-primary);
     padding: 1rem;
     border-radius: 10px;
     color: white;
@@ -41,11 +41,11 @@ input
     margin: 10px 0 0 0;
     width: 80%;
     min-height: 2em;
-    background-color: var(--color-primary);
-    border: 1px solid white;
+    background: var(--color-secondary);
     color: white;
     text-indent: 5px;
     height: 40px;
+    border: 1px solid white;
 }
 
 button
