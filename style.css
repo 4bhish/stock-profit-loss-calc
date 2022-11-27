@@ -2,67 +2,78 @@
     margin: 0;
     
 }
+
 :root {
     --color-primary:#0a0a23;
     --color-secondary:  #1b1b32;
+    --color-btn: #3b3b4f;
 }
-
 body
 {
     max-width: 100vw;
     max-height: 100vh;
-    background:burlywood;
-}
+    margin: 0;
+    background: var(--color-primary);
 
+}
+.heading
+{
+    text-align: center;
+    display: block;
+    margin: 0.5rem auto;
+}
+.description
+{
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
 .container
+
 {
     margin: 1rem auto;
     height: 450px;
-    width: 550px;
-    background:var(--color-primary);
+    width: 450px;
+    max-width: fit-content;
     padding: 1rem;
     border-radius: 10px;
     color: white;
 }
 
-.heading
+label
 {
+    display: block;
+    margin: 0.5rem auto;
     text-align: center;
     padding: 0.5rem;
-}
-label
-{   
-    text-align: center;
-    display: block;
-    margin: 0.5rem 0;
+    font-size: larger;
+    
 }
 input
 {
-    margin: 10px 0 0 0;
-    width: 80%;
-    min-height: 2em;
+    display: block;
+    margin: 0.5rem auto;
     background: var(--color-secondary);
-    color: white;
-    text-indent: 5px;
-    height: 40px;
     border: 1px solid white;
+    width: 320px;
+    height: 20px;
+    padding: 0.5rem;
+    color: white;
+    font-size: larger;
 }
-
 button
 {
     display: block;
     margin: 1rem auto;
-    width: 150px;
-    height: 40px;
-    background-color: #3b3b4f;
-    color: white;
+    width: 120px;
+    height: 30px;
     border: 1px solid white;
+    color: white;
+    background: var(--color-btn);
 }
-
 #output
 {
-    margin: 1rem auto;
-    font-size: larger;
+    display: block;
     text-align: center;
-    padding: 0.2rem;
+    font-size: x-large;
 }
