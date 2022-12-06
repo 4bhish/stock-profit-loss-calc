@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Calculator</title>
@@ -12,13 +12,13 @@
     <div class="container">
         <h1 class="heading">Stock Calculator</h1>
 
-        <label for="initial-price">Enter Intial Price: <input class="input--box" type="number" id="initial-price" placeholder="Intial Price"></label>
+        <label for="initial-price">Enter Intial Price: <input minlength="0" class="input--box" type="number" id="initial-price" placeholder="Intial Price"></label>
         
 
-        <label for="stock-quantity">Enter Stock Quantity: <input type="number" class="input--box" type="text" id="stock-quantity" placeholder="Quantity"></label>
+        <label for="stock-quantity">Enter Stock Quantity: <input minlength="0" type="number" class="input--box" type="text" id="stock-quantity" placeholder="Quantity"></label>
         
         
-        <label for="current-price">Enter Current Price: <input class="input--box" type="number" id="current-price" placeholder="Current Price"></label>
+        <label for="current-price">Enter Current Price: <input minlength="0" class="input--box" type="number" id="current-price" placeholder="Current Price"></label>
         
 
         <button id="tellme">Tell Me</button>
