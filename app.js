@@ -6,7 +6,7 @@ const  outputText = document.querySelector("#output");
 
 function calculateStocks(initialPrice,stockQuantity,currentPrice)
 {
-    if(initialPrice > currentPrice )
+   if(ipInput.value && sqInput.value && cpInput ) {if(initialPrice > currentPrice )
     {
         var loss = (initialPrice - currentPrice)*stockQuantity;
         var lossPercentage = (loss/initialPrice)*100;
@@ -22,6 +22,9 @@ function calculateStocks(initialPrice,stockQuantity,currentPrice)
     else
     {
         showMessage("You earned nothing you gained Nothing")
+    }} else
+    {
+        showMessage("It looks like you have missed to put values together")
     }
 }
 
