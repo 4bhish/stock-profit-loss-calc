@@ -13,7 +13,7 @@ In the project directory, you can see:
 
 You can learn more in the [Stcok (Profit/Loss) Calculator](https://stock-calc-profitloss.netlify.app/).
 
-To use Valyrian Translator:
+To use (Profit/Loss) Calculator:
 - First enter your Intial Price.
 - Then enter Stock Quantity.
 - Final step is to enter Current Price.
